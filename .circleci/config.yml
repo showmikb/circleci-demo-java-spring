@@ -14,7 +14,7 @@ jobs:
     steps:
       - run: wget https://s3.ap-south-1.amazonaws.com/env-specific-bucket/sadf.txt
       
-      - run: cp sadf.txt ~/circleci-demo-java-spring
+      - run: ls
 
       - checkout
 
